@@ -1,0 +1,75 @@
+/* Set the font family and font size for the form */
+body {
+	font-family:'Quicksand';
+	font-size: 14px;
+  }
+  h1,h3{
+	text-align: center;
+	color:#FFD100
+  }
+  img{
+	width:60px;
+	height:30px;
+
+	
+
+  }
+  #left{
+	text-align:left;
+	float: left;    
+	margin: 0 15px 0 0;
+		
+
+  }
+  /* Set the background color and text color for the form */
+ body {
+	background-color: #005587;
+	color: #333333;
+  }
+  
+  /* Set the background color and border for the form container */
+  form {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 20px;
+  }
+  
+  /* Style the form fields */
+  label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+  }
+  
+  select {
+	background-color: #ffffff;
+  }
+  
+  input[type="submit"] {
+	background-color: #2774ae;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #1c5e8c;
+  }
+  
+  
+  
+  
+  
+  

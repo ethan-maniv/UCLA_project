@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Form</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='ucla.css') }}">
+
+  </head>
+  <body>
+    <center>      
+    <h1> UCLA Roomate Finder</h1></center>
+    <div style="text-align: left">
+      <img id = "left" src = "https://upload.wikimedia.org/wikipedia/commons/5/51/Ucla_bruins_bluelogo.png">
+
+    </div>
+    <h3> Welcome to the UCLA Roomate Finder! Enter your name, gender, and answer
+      the questions below in order to find the perfect roomate
+    </h3>
+
+    
+  
+   
+    <form method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+     
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select gender</option>
+        <option value="M">M</option>
+        <option value="F">F</option>
+        <option value="other">Other</option>
+      </select><br>
+
+      
+
+      <h4> <strong>Repond to the following Questions with a number from 1-10
+        with 1 being "not at all" and 10 being "very"</strong>
+      </h4>
+
+      <label for="q1">How often will you be going out?</label>
+      <input type="number" id="q1" name="q1" required><br>
+
+      <label for="q2">How clean do you keep your room?</label>
+      <input type="number" id="q2" name="q2" required><br>
+
+      <label for="q3">How likely are you to sleep in</label>
+      <input type="number" id="q3" name="q3" required><br>
+
+      <label for="q4">How often do you exercise (working out, playing sports, etc)</label>
+      <input type="number" id="q4" name="q4" required><br>
+
+      <label for="q5">How often do you plan on having people over</label>
+      <input type="number" id="q5" name="q5" required><br>
+
+      <label for="q6">How much time will you spend doing homework?</label>
+      <input type="number" id="q6" name="q6" required><br>
+
+      <label for="q7">How long will you spend in the dorm room?</label>
+      <input type="number" id="q7" name="q7" required><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <p> Note: This program is not associated with UCLA in any way.
+    </p>
+  </body>
+</html>
